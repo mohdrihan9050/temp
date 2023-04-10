@@ -1,0 +1,28 @@
+.set-img-height{
+    max-height: 350px;
+}
+
+.text-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/text-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-content-inner{
+    opacity: .6;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    border-radius: 10px;
+    line-height: 1.8;
+   
+}
+
+.mark, mark {
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
