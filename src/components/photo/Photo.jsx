@@ -24,89 +24,89 @@ const Photo=()=>{
           <h1 className='text-center text-info display-4 pt-3'>Way To Success..!</h1>
             <div className=" row gy-3">
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail' data-="fade-up" src={img1}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail' data-aos="fade-up" src={img1}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img2}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img2}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-="fade-up" src={img3}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img3}/>
                 </div>
             </div>
 
             <div className=" row mt-1 gy-3">
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img4}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img4}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img5}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img5}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-="fade-up" src={img6}/>
-                </div>
-
-            </div>
-
-            <div className=" row mt-1  gy-3">
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img7}/>
-                </div>
-
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img8}/>
-                </div>
-
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-="fade-up" src={img9}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img6}/>
                 </div>
 
             </div>
 
             <div className=" row mt-1  gy-3">
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img10}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img7}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img11}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img8}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img12}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img9}/>
                 </div>
 
             </div>
 
             <div className=" row mt-1  gy-3">
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img13}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img10}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img14}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img11}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-="fade-up" src={img15}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img12}/>
+                </div>
+
+            </div>
+
+            <div className=" row mt-1  gy-3">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img13}/>
+                </div>
+
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img14}/>
+                </div>
+
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img15}/>
                 </div>
 
             </div>
 
             <div className=" row mt-1 mb-3 gy-3">
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img16}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img16}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-="fade-up" src={img17}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img17}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-="fade-up" src={img18}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img18}/>
                 </div>
 
             </div>
