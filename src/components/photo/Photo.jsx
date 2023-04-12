@@ -1,112 +1,125 @@
 import './Photo.css'
-import img1 from '../../img/img1p.jpg';
-import img2 from '../../img/img2p.jpg';
-import img3 from '../../img/img3p.jpg';
-import img4 from '../../img/img4p.jpg';
-import img5 from '../../img/img5p.png';
-import img6 from '../../img/img6p.jpg';
-import img7 from '../../img/img7p.jpg';
-import img8 from '../../img/img8p.jpg';
-import img9 from '../../img/img9p.jpg';
-import img10 from '../../img/img10p.jpg';
-import img11 from '../../img/img11p.jpg';
-import img12 from '../../img/img12p.jpg';
-import img15 from '../../img/img15p.jpg';
-import img13 from '../../img/img13p.jpg';
-import img14 from '../../img/img14p.jpg';
-import img16 from '../../img/img16p.jpg';
-import img17 from '../../img/img17p.jpg';
-import img18 from '../../img/img18p.jpg';
+import img0 from '../../img/img1/img0p.jpg';
+import img1 from '../../img/img1/img1p.jpg';
+import img2 from '../../img/img1/img2p.jpg';
+import img3 from '../../img/img1/img3p.jpg';
+import img4 from '../../img/img1/img4p.jpg';
+import img5 from '../../img/img1/img5p.jpg';
+import img6 from '../../img/img1/img6p.jpg';
+import img7 from '../../img/img1/img7p.jpg';
+import img8 from '../../img/img1/img8p.jpg';
+import img9 from '../../img/img1/img9p.jpg';
+import img10 from '../../img/img1/img10p.jpg';
+import img11 from '../../img/img1/img11p.jpg';
+import img12 from '../../img/img1/img12p.jpg';
+import img15 from '../../img/img1/img15p.jpg';
+import img13 from '../../img/img1/img13p.jpg';
+import img14 from '../../img/img1/img14p.jpg';
+import img16 from '../../img/img1/img16p.jpg';
+import img17 from '../../img/img1/img17p.jpg';
+import vidimg from '../../img/img1/vidimg.jpg';
+import vidimg1 from '../../img/img1/vidimg1.jpg';
+import vid1 from '../../img/img1/vid1.mp4';
+import vid2 from '../../img/img1/vid2.mp4';
+
 const Photo=()=>{
     return(
         <div className=''>
         <div className='container-fluid'>
           <h1 className='text-center text-info display-4 pt-3'>Way To Success..!</h1>
-            <div className=" row gy-3">
+              <div className=" d-flex justify-content-center">
+              <video width="320" height="300" controls poster={vidimg}>
+                    <source src={vid2} type="video/mp4"/>
+                </video>
+                </div>
+            <div className="mt-5 row gy-3">
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail' data-aos="fade-up" src={img1}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail' data-aos="fade-up" src={img0}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img2}/>
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img1}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img3}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img2}/>
                 </div>
             </div>
 
             <div className=" row mt-1 gy-3">
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img3}/>
+                </div>
+
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                    <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img4}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img5}/>
-                </div>
-
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img6}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img5}/>
                 </div>
 
             </div>
 
             <div className=" row mt-1  gy-3">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img6}/>
+                </div>
+
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                    <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img7}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img8}/>
-                </div>
-
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img9}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img8}/>
                 </div>
 
             </div>
 
             <div className=" row mt-1  gy-3">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img9}/>
+                </div>
+
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                    <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img10}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img11}/>
-                </div>
-
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img12}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img11}/>
                 </div>
 
             </div>
-
             <div className=" row mt-1  gy-3">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img12}/>
+                </div>
+
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                    <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img13}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img14}/>
-                </div>
-
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img15}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img14}/>
                 </div>
 
             </div>
-
+            <div className=" d-flex justify-content-center">
+              <video width="320" height="300" controls poster={vidimg1}>
+                    <source src={vid1} type="video/mp4"/>
+                </video>
+                </div>
             <div className=" row mt-1 mb-3 gy-3">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img15}/>
+                </div>
+
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                    <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img16}/>
                 </div>
 
                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                   <img className='img-fluid set-img-height w-100 img-thumbnail'  data-aos="fade-up" src={img17}/>
-                </div>
-
-                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img18}/>
+                    <img  className='img-fluid set-img-height w-100 img-thumbnail '  data-aos="fade-up" src={img17}/>
                 </div>
 
             </div>
